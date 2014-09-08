@@ -1,19 +1,26 @@
-package databases.tables.examples
+package databases.examples
 
 import scala.slick.lifted.TableQuery
+
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
+
 import play.api.db.slick.Config.driver.simple._
 import play.api.test.WithApplication
 import scala.slick.jdbc.meta.MTable
+
 import org.joda.time.DateTime
+
 import java.sql.Date
+
 import org.joda.time.LocalDate
+
 import java.util.Calendar
 import java.text.CalendarBuilder
 import java.util.GregorianCalendar
+
 import org.joda.time.DateTimeUtils
-//import databases.tables.examples.PersonTable
+
 
 class PersonTest extends FlatSpec with Matchers {
 
