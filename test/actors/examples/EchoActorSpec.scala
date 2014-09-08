@@ -10,6 +10,9 @@ import akka.actor.actorRef2Scala
 import akka.testkit.TestProbe
 import play.api.test.WithApplication
 
+import scala.language.postfixOps
+
+
 class EchoActorSpec extends TestkitConfiguration with NoTimeConversions {
 
   describe("A EchoActor") {
