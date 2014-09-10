@@ -6,6 +6,8 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "2.11.2"
 
+EclipseKeys.withSource := true
+
 //javacOptions in Compile ++= Seq("-source", "1.8", "-target", "1.8")
 
 //standard
