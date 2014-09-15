@@ -14,7 +14,7 @@ import play.api.test.WithApplication
 
 class EchoActorSpec extends TestkitConfiguration with NoTimeConversions {
 
-  describe("A EchoActor") {
+  describe("An EchoActor") {
     it("should notify watchers") {
       new WithApplication {
         //we are using the ActorSystem from the TestkitConfiguration
