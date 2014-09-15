@@ -1,4 +1,4 @@
-package actors.examples
+package controllers.actors.examples
 
 import akka.actor.Actor
 import akka.actor.ActorRef

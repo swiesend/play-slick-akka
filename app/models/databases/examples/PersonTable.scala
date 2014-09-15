@@ -1,4 +1,4 @@
-package databases.examples
+package models.databases.examples
 
 // Importing the slick driver
 import play.api.db.slick.Config.driver.simple._

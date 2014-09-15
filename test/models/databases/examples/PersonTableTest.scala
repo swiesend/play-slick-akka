@@ -1,4 +1,4 @@
-package databases.examples
+package models.databases.examples
 
 import scala.slick.lifted.TableQuery
 

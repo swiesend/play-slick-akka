@@ -1,4 +1,4 @@
-package actors
+package controllers.actors
 
 import org.scalatest.BeforeAndAfterAll
 import org.scalatest.FunSpecLike

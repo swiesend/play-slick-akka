@@ -1,16 +1,15 @@
-package actors.examples
+package controllers.actors.examples
 
 import scala.concurrent.duration.DurationInt
+import scala.language.postfixOps
 
 import org.specs2.time.NoTimeConversions
 
-import actors.TestkitConfiguration
 import akka.actor.Props
 import akka.actor.actorRef2Scala
 import akka.testkit.TestProbe
+import controllers.actors.TestkitConfiguration
 import play.api.test.WithApplication
-
-import scala.language.postfixOps
 
 
 class EchoActorSpec extends TestkitConfiguration with NoTimeConversions {
